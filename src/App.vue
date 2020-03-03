@@ -23,6 +23,7 @@
 </template>
 <script>
 import SideComponent from "./components/SideComponent";
+
 export default {
   components: {
     SideComponent

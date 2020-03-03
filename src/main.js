@@ -7,9 +7,10 @@ import VueFusionCharts from "vue-fusioncharts";
 import FusionCharts from "fusioncharts";
 import Column2D from "fusioncharts/fusioncharts.charts";
 import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
+import AngularGauge from "fusioncharts/fusioncharts.widgets";
 
 Vue.config.productionTip = false;
-Vue.use(VueFusionCharts, FusionCharts, Column2D, FusionTheme);
+Vue.use(VueFusionCharts, FusionCharts, Column2D, FusionTheme, AngularGauge);
 
 new Vue({
   router,

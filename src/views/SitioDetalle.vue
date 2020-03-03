@@ -23,21 +23,26 @@
           </v-list-item>
           <v-divider></v-divider>
           <v-container>
-            <CardDatos />
+            <tacometro />
+            <tacometropordia></tacometropordia>
           </v-container>
         </v-card>
       </v-col>
+      <v-col cols="10"> </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
 import CardDevice from "../components/CardDevice";
-import CardDatos from "../components/CardDatos";
+// import CardDatos from "../components/CardDatos";
+import tacometro from "../components/tacometro";
+import tacometropordia from "../components/tacometropordia";
 export default {
   components: {
     CardDevice,
-    CardDatos
+    tacometropordia,
+    tacometro
   },
   computed: {
     sitio() {

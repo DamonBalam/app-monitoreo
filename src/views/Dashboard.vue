@@ -7,7 +7,7 @@
           <small class="grey--text">v1.1</small>
         </span>
       </v-col>
-      <v-col cols="10">
+      <v-col xl="10" lg="12">
         <v-card outlined class="pa-2">
           <span class="title font-weight-bold ml-8">
             ESTADO GENERAL DE LOS SITIOS
@@ -15,7 +15,7 @@
           <CardSitio />
         </v-card>
       </v-col>
-      <v-col cols="2">
+      <v-col  xl="2" lg="12" md="12">
         <v-card outlined>
           <v-list-item>
             <v-list-item-content>
@@ -26,7 +26,8 @@
           </v-list-item>
           <v-divider></v-divider>
           <v-container>
-            <CardDatos />
+            <tacometro />
+            <tacometropordia></tacometropordia>
           </v-container>
         </v-card>
       </v-col>
@@ -44,11 +45,14 @@
 
 <script>
 import CardSitio from "../components/CardSitio";
-import CardDatos from "../components/CardDatos";
+import tacometro from "../components/tacometro";
+import tacometropordia from "../components/tacometropordia";
+// import CardDatos from "../components/CardDatos";
 export default {
   components: {
     CardSitio,
-    CardDatos
+    tacometro,
+    tacometropordia
   }
 };
 </script>

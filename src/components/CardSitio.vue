@@ -79,6 +79,12 @@ export default {
           porcent: 100,
           categoria: "SITIO 7",
           color: "#4CAF50"
+        },
+        {
+          id: "008",
+          porcent: 33,
+          categoria: "SITIO 8",
+          color: "#E57373"
         }
       ]
     };
