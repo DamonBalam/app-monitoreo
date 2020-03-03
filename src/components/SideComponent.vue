@@ -1,11 +1,10 @@
 <template>
   <v-navigation-drawer
     v-model="drawer"
-    color="light-blue darken-4"
+    color="teal darken-1"
     :expand-on-hover="expandOnHover"
     :mini-variant="miniVariant"
     :right="false"
-    :src="bg"
     app
     dark
     clipped
@@ -24,7 +23,7 @@
 
       <v-divider></v-divider>
 
-      <v-list-item v-for="item in items" :key="item.title" link>
+      <v-list-item v-for="item in items" :key="item.title" link :to="item.path">
         <v-list-item-icon>
           <v-icon>{{ item.icon }}</v-icon>
         </v-list-item-icon>
@@ -47,7 +46,7 @@ export default {
   data() {
     return {
       items: [
-        { title: "Dashboard", icon: "mdi-view-dashboard" },
+        { title: "Dashboard", icon: "mdi-view-dashboard", path: "/" },
         { title: "Tickets", icon: "mdi-cards" },
         { title: "Configuración", icon: "mdi-cogs" }
       ],

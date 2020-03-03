@@ -3,9 +3,9 @@
     <!-- menu lateral -->
     <SideComponent />
     <!-- barra de navegacion -->
-    <v-app-bar app color="light-blue darken-4" dense dark clipped-left="true">
+    <v-app-bar app color="teal darken-1" dense dark :clipped-left="true">
       <v-app-bar-nav-icon @click="menu"></v-app-bar-nav-icon>
-      <v-toolbar-title>Monitoreo</v-toolbar-title>
+      <v-toolbar-title>Gestor de Sitios</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -16,7 +16,9 @@
     </v-app-bar>
 
     <!-- vista -->
-    <v-content> </v-content>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
   </v-app>
 </template>
 <script>
