@@ -7,15 +7,22 @@
           <small class="grey--text">v1.1</small>
         </span>
       </v-col>
-      <v-col xl="10" lg="12">
+      <v-col xl="8" lg="12">
         <v-card outlined class="pa-2">
-          <span class="title font-weight-bold ml-8">
-            ESTADO GENERAL DE LOS SITIOS
-          </span>
-          <CardSitio />
+          <v-list-item>
+            <v-list-item-content>
+              <v-list-item-title class="subtitle-1"
+                >ESTADO GENERAL DE LOS SITIOS</v-list-item-title
+              >
+            </v-list-item-content>
+          </v-list-item>
+          <v-divider></v-divider>
+          <v-container>
+            <CardSitio />
+          </v-container>
         </v-card>
       </v-col>
-      <v-col  xl="2" lg="12" md="12">
+      <v-col xl="4" lg="12" md="12">
         <v-card outlined>
           <v-list-item>
             <v-list-item-content>
@@ -26,12 +33,18 @@
           </v-list-item>
           <v-divider></v-divider>
           <v-container>
-            <tacometro />
-            <tacometropordia></tacometropordia>
+            <v-row no-gutters>
+              <v-col cols="6">
+                <tacometro />
+              </v-col>
+              <v-col cols="6">
+                <tacometropordia></tacometropordia>
+              </v-col>
+            </v-row>
           </v-container>
         </v-card>
       </v-col>
-      <v-col cols="10">
+      <v-col cols="12">
         <v-card outlined class="pa-2">
           <span class="title font-weight-bold ml-8">
             Estado en tiempo real

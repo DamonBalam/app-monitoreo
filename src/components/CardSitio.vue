@@ -1,6 +1,6 @@
 <template>
   <v-row no-gutters>
-    <v-col xl="2" lg="3" md="4" v-for="item in lista_productos" :key="item.id">
+    <v-col xl="3" lg="3" md="4" v-for="item in lista_productos" :key="item.id">
       <v-card
         class="mx-4 my-2"
         max-width="300"

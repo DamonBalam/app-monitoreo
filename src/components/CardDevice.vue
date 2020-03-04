@@ -1,6 +1,13 @@
 <template>
   <v-row no-gutters>
-    <v-col xl="4" lg="3" md="4" v-for="item in lista_productos" :key="item.id">
+    <v-col
+      xl="4"
+      lg="4"
+      md="6"
+      sm="12"
+      v-for="item in lista_productos"
+      :key="item.id"
+    >
       <v-card
         class="mx-auto my-6"
         max-width="300"
