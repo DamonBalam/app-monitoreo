@@ -24,7 +24,7 @@ export default {
       ],
       datasets: [
         {
-          label: "estado",
+          label: "Disponibilidad",
           fill: false,
           borderColor: "#43A047",
           data: [

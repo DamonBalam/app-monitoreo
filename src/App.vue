@@ -5,7 +5,7 @@
     <!-- barra de navegacion -->
     <v-app-bar app color="teal darken-1" dense dark :clipped-left="true">
       <v-app-bar-nav-icon @click="menu"></v-app-bar-nav-icon>
-      <v-toolbar-title>Gestor de Sitios</v-toolbar-title>
+      <v-toolbar-title>Monitoreo de Sitios</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

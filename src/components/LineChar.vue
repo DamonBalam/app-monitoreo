@@ -30,7 +30,7 @@ export default {
       ],
       datasets: [
         {
-          label: "estado",
+          label: "Disponibilidad",
           fill: false,
           borderColor: "#EF6C00",
           data: [
@@ -62,7 +62,11 @@ export default {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      fill: false
+      fill: false,
+      legend: {
+        display: true,
+        text: "porcentaje"
+      }
     }
   }),
 

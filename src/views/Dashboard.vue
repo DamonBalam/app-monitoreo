@@ -12,7 +12,7 @@
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title class="subtitle-1"
-                >ESTADO GENERAL DE LOS SITIOS</v-list-item-title
+                >DISPONIBILIDAD DE SITIOS</v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
@@ -27,7 +27,7 @@
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title class="subtitle-1"
-                >DATOS GENERALES</v-list-item-title
+                >DISPONIBILIDAD GLOBAL</v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
@@ -50,7 +50,7 @@
             <v-list-item-content>
               <v-list-item-title class="subtitle-1">
                 <v-chip color="teal darken-1" label text-color="white">
-                  ESTADO GENERAL EN TIEMPO REAL
+                  DISPONIBILIDAD GLOBAL TIEMPO REAL
                 </v-chip>
               </v-list-item-title>
             </v-list-item-content>
